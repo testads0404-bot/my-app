@@ -1,38 +1,42 @@
+
 <!DOCTYPE html>
 <html lang="fa" dir="rtl">
   <head>
-    <meta charset="UTF--8" />
+    <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>استودیوی تولید محتوای هوش مصنوعی</title>
+    <title>دستیار حقوقی هوشمند Gemini</title>
     <script src="https://cdn.tailwindcss.com"></script>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Vazirmatn:wght@300;400;500;600;700&display=swap" rel="stylesheet">
     <style>
+      @import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@400;500;700&display=swap');
       body {
         font-family: 'Vazirmatn', sans-serif;
       }
-      @keyframes fadeIn {
-        from { opacity: 0; transform: translateY(10px); }
-        to { opacity: 1; transform: translateY(0); }
+      .scrollbar-thin::-webkit-scrollbar {
+        width: 6px;
+        height: 6px;
       }
-      .animate-fade-in {
-        animation: fadeIn 0.5s ease-in-out;
+      .scrollbar-thin::-webkit-scrollbar-track {
+        background: #2d3748;
+      }
+      .scrollbar-thin::-webkit-scrollbar-thumb {
+        background-color: #4a5568;
+        border-radius: 3px;
       }
     </style>
   <script type="importmap">
 {
   "imports": {
-    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
-    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.22.0",
+    "@google/genai": "https://aistudiocdn.com/@google/genai@^1.27.0",
     "react/": "https://aistudiocdn.com/react@^19.2.0/",
-    "react": "https://aistudiocdn.com/react@^19.2.0"
+    "react": "https://aistudiocdn.com/react@^19.2.0",
+    "react-dom/": "https://aistudiocdn.com/react-dom@^19.2.0/",
+    "lucide-react": "https://aistudiocdn.com/lucide-react@^0.546.0"
   }
 }
 </script>
 <link rel="stylesheet" href="/index.css">
 </head>
-  <body>
+  <body class="bg-gray-900 text-gray-200">
     <div id="root"></div>
     <script type="module" src="/index.tsx"></script>
   </body>

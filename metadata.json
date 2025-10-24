@@ -1,6 +1,5 @@
-
 {
-  "name": "AI Content Studio | استودیوی تولید محتوای هوش مصنوعی",
-  "description": "A powerful tool for generating text, images, videos, and hashtags using Gemini AI. | یک ابزار قدرتمند برای تولید متن، تصویر، ویدیو و هشتگ با استفاده از هوش مصنوعی جمنای.",
+  "name": "دستیار حقوقی هوشمند Gemini",
+  "description": "یک برنامه جامع حقوقی برای دسترسی به قوانین، تنظیم اوراق قضایی، محاسبه هزینه های دادرسی و دریافت راهنمایی های حقوقی با استفاده از هوش مصنوعی Gemini.",
   "requestFramePermissions": []
 }

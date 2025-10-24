@@ -1,5 +1,5 @@
 {
-  "name": "ai-content-studio-|-استودیوی-تولید-محتوای-هوش-مصنوعی",
+  "name": "دستیار-حقوقی-هوشمند-gemini",
   "private": true,
   "version": "0.0.0",
   "type": "module",
@@ -9,9 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@google/genai": "^1.27.0",
+    "react": "^19.2.0",
     "react-dom": "^19.2.0",
-    "@google/genai": "^1.22.0",
-    "react": "^19.2.0"
+    "lucide-react": "^0.546.0"
   },
   "devDependencies": {
     "@types/node": "^22.14.0",
